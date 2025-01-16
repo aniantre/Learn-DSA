@@ -26,11 +26,9 @@ class ThreeSUM {
           }
           else if (sum < target){
             left++;
-            while(left<right && nums[left] == nums[left-1]) left++;
           }
           else {
             right--;
-            while(left<right && nums[right] == nums[right+1]) right--;
           }
         }
       }

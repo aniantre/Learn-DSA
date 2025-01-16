@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-
 class TwoSUM {
 	public:
 		bool Two_Sum (vector<int>&nums, int target){
